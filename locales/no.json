@@ -128,6 +128,7 @@
       	"measure_radon_longterm": "Radon langtid",
 		"measure_temperature2": "Temperatur2",
 		"measure_temperature3": "Temperatur3",
+		"measure_energy": "Energi (GJ)",
 		"meter_power": "Energimåler",
 		"meter_gas": "Gassmåler",
 		"meter_water": "Vannmåler",

@@ -311,6 +311,52 @@
       "max": 40,
       "step": 1
     },
+
+    "measure_energy": {
+      "type": "number",
+      "title": {
+        "en": "Energy",
+        "de": "Energie",
+        "nl": "Energie",
+        "no": "Energi"
+      },
+      "icon": "/assets/energy.svg",
+      "insights": true,
+      "uiComponent": "sensor",
+      "getable": true,
+      "setable": false,
+      "$flow": {
+        "triggers": [
+        {
+        "id": "measure_energy_changed",
+        "title": {
+          "en": "Energy value changed",
+          "nl": "Energiewaarde veranderd",
+          "de": "Energiewert geändert",
+          "no": "Energi verdien ble endret"
+        },
+        "tokens": [
+          {
+            "name": "measure_energy",
+            "title": {
+        "en": "Energy",
+        "de": "Energie",
+        "nl": "Energie",
+        "no": "Energi"
+            },
+            "type": "number",
+            "example": 23.5
+                  }
+              ]
+            }
+          ]
+      },      
+      "units": {
+        "en": "GJ"
+      },
+      "step": 1,
+      "decimals": 3
+    },
           
     "multi_state": {
       "type": "string",
