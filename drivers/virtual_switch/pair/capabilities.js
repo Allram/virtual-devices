@@ -158,6 +158,7 @@ var devices = {
       "measure_tvoc",
       "measure_radon",
       "measure_radon_longterm",
+      "measure_energy",
       "meter_power",
       "meter_gas",
       "meter_water",
