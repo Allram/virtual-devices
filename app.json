@@ -354,7 +354,7 @@
       "units": {
         "en": "GJ"
       },
-      "step": 1,
+      "step": 0.001,
       "decimals": 3
     },
           
